@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php include("menu.php"); ?>
-        <?php include("contenu.php"); ?>
+        <?php include("home.php"); ?>
     </body>
     <?php include("footer.php"); ?>
 </html>
