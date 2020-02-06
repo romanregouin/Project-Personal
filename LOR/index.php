@@ -5,7 +5,7 @@
         <title>Let's have fun !</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     </head>
-    <body>
+    <body> 
         <?php include("menu.php"); ?>
         <?php include("home.php"); ?>
     </body>

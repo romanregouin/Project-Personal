@@ -19,8 +19,10 @@ body {
 }
 
 #menu_icon{
-    width: 120px;
-    height: 40px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: 5px;
 }
 
 #menu {
@@ -40,9 +42,10 @@ body {
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-style: solid;
-    border-image: url("Img/menu_item_border.jpeg") 100;
-    border-image-width: 10px;
+    border-image: url("Img/gold_border2.png");
+    border-image-slice: 30%;
+    border-image-repeat: repeat;
+    border-image-width: auto;
     border-image-outset: 10px;
 }
 
