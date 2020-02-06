@@ -18,18 +18,32 @@ body {
     font-weight: bold;
 }
 
+#menu_icon{
+    width: 120px;
+    height: 40px;
+}
+
 #menu {
     display: flex;
-    height: auto;
+    padding-left: 0px;
+    height: 60px;
     width: auto;
     justify-content: center;
+    align-items: center;
     list-style: none;
     margin: 3px;
 }
 
 .menu_item {
     display: flex;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-image: url("Img/menu_item_border.jpeg") 100;
+    border-image-width: 10px;
+    border-image-outset: 10px;
 }
 
 .text_menu,.text_menu:visited {
